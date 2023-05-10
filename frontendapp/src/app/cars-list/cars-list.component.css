@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 75vh;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50vw;
+    height: 50vh;
+    text-align: left;
+    font-size: 20px;
+}
+
+table td {
+  width: 50px;
+  height: 50px;
+}
+
+table th {
+  width: 50px;
+  height: 15px;
+  border-bottom: 2px dotted;
+}
+
