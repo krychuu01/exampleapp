@@ -13,11 +13,13 @@ import { MatTableModule } from '@angular/material/table';
 import { HttpClientModule } from "@angular/common/http";
 import {MatSortModule} from "@angular/material/sort";
 import {CommonModule} from "@angular/common";
+import { CarsAddingComponent } from './cars-adding/cars-adding/cars-adding.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CarsListComponent
+    CarsListComponent,
+    CarsAddingComponent
   ],
   imports: [
     BrowserModule,
