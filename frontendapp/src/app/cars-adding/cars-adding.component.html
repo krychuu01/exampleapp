@@ -1,0 +1,33 @@
+
+<div class="container">
+
+    <p>
+        <mat-form-field appearance="fill">
+            <mat-label>Brand</mat-label>
+            <input matInput placeholder="Audi">
+            <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+            <mat-hint>Put brand name here</mat-hint>
+        </mat-form-field>
+    </p>
+
+    <p>
+        <mat-form-field appearance="fill">
+            <mat-label>Model</mat-label>
+            <input matInput placeholder="Q7">
+            <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+            <mat-hint>Put model name here</mat-hint>
+        </mat-form-field>
+    </p>
+
+    <p>
+        <mat-form-field appearance="fill">
+            <mat-label>Production year</mat-label>
+            <input matInput placeholder="2017">
+            <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+            <mat-hint>Put production year here</mat-hint>
+        </mat-form-field>
+    </p>
+
+    <button mat-raised-button color="accent" (click)="createCar(this.carCreateDTO)"> Add car to database</button>
+
+</div>
