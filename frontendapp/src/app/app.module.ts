@@ -13,7 +13,11 @@ import { MatTableModule } from '@angular/material/table';
 import { HttpClientModule } from "@angular/common/http";
 import {MatSortModule} from "@angular/material/sort";
 import {CommonModule} from "@angular/common";
-import { CarsAddingComponent } from './cars-adding/cars-adding/cars-adding.component';
+import { CarsAddingComponent } from './cars-adding/cars-adding.component';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatIconModule} from "@angular/material/icon";
+import {MatInputModule} from "@angular/material/input";
 
 @NgModule({
   declarations: [
@@ -32,7 +36,11 @@ import { CarsAddingComponent } from './cars-adding/cars-adding/cars-adding.compo
     MatTableModule,
     HttpClientModule,
     MatSortModule,
-    CommonModule
+    CommonModule,
+    MatSnackBarModule,
+    MatFormFieldModule,
+    MatIconModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
