@@ -28,9 +28,7 @@ export class CarsAddingComponent {
               );
             },
             (error: any) => {
-              console.error("Error occurred while creating car:", error);
-              const errorMessage = error.message || "An error occurred while adding the car. Please try again.";
-              this.snackBar.open(errorMessage);
+              this.snackBar.open(error.error);
             }
         );
   }

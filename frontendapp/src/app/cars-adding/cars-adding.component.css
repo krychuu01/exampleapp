@@ -4,4 +4,13 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 10%;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+button {
+    margin-top: 15px;
 }
